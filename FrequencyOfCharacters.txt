@@ -8,7 +8,6 @@ public class FrequencyOfCharacters {
 		Validation validate=new Validation();
 		Scanner input=new Scanner(System.in);
 		String special="^[@#$%^&*()!]+$";
-		String special1="^[A-Za-z][@#$%^&*()!]+$";
 		System.out.println("Enter a string:");
 		String name=input.next();
 		if(name.matches(special)) {
@@ -41,4 +40,3 @@ public class FrequencyOfCharacters {
 
 }
 }
-s
